@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Flask-specific files
+instance/
+.webassets-cache
+.env
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Environments
+.envrc
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Linting and type-checking tools
+.mypy_cache/
+.ruff_cache/
+pyrightconfig.json
+
+# Documentation builds
+docs/_build/
+
+# Temporary files and backups
+*.bak
+*.tmp
+
+# Ignore Git itself
+.git/
+
